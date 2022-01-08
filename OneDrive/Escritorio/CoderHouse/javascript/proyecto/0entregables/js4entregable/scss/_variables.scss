@@ -1,0 +1,36 @@
+$ancho: 100%;
+$alto: 100%;
+$total-columnas: 12;
+$bg-main: #F2D1C9;
+$bg-header: #F2D1C9;
+$bg-box: #C4C4C4;
+$bg-footer: #BF8F73;
+$total-size-text: 4;
+$size-text: 4rem;
+$text-color: #000000;
+$footer-color: #FFFFFF;
+$header-color: #BF8F73;
+$title-color: #BF8F73;
+$subtitle-color: #BF8F73;
+$ligth: 300;
+$regular: 400;
+$bold: 700;
+$font-main: 'Roboto Condensed', sans-serif;
+$funtes: (
+    ligth: $ligth,
+    regular: $regular,
+    bold: $bold
+);
+$secciones: (
+    main: $bg-main,
+    header: $bg-header,
+    box: $bg-box,
+    footer: $bg-footer
+);
+$color-secciones: (
+    text: $text-color,
+    footer: $footer-color,
+    header: $header-color,
+    title: $title-color,
+    subtitle: $subtitle-color
+);
