@@ -1,0 +1,8 @@
+[
+    { "id": 1, "origen": "Colombia", "precioKilo": 2000, "descripcion": "Se caracteriza por tener mucho cuerpo, notas de dulce, nuez y chocolate, hasta florales y frutales, casi tropical", "region": "Antioquía"},
+    { "id": 2, "origen": "Brasil", "precioKilo": 2500, "descripcion": "Excelente café, de aroma suave, cuerpo ligero y sabor dulce", "region": "Minas Gerais"},
+    { "id": 3, "origen": "Costa Rica", "precioKilo": 2700, "descripcion": "De las variedades Caturra , que produce un grano de mayor calidad y con mejores características aromáticas", "region": "Guanacaste"},
+    { "id": 4, "origen": "India", "precioKilo": 3000, "descripcion": "Su taza es intensamente aromática, de sabor suave y con notas de chocolate", "region": "Karnataka"},
+    { "id": 5, "origen": "Vietnam", "precioKilo": 2000, "descripcion": "Grano de sabor más fuerte debido a que contiene aprox. 2,7% de cafeína, por ello es un poco más amargo", "region": "Cau Dat"},
+    { "id": 6, "origen": "Honduras", "precioKilo": 1900, "descripcion": "Un café con una fina y delicada acidez, balanceado de sabores a frutas tropicales, gusto dulce y cuerpo plano", "region": "Santa Bárbara"}
+]

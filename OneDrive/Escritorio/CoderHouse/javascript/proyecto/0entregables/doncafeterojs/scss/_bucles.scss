@@ -1,0 +1,25 @@
+@for $i from 1 through $total-columnas {
+    .col-#{$i}{
+        width: ($ancho / 12) * $i;
+    }
+}
+@each $r in 1rem, 2rem, 3rem, 4rem, 5rem{
+    .font-size-#{$r}{
+        font-size: $r;
+    }
+}
+@each $r, $t in $secciones{
+    .secciones-#{$r}{
+        background-color: $t;
+    }
+}
+@each $j, $m in $funtes{
+    .font-weight-#{$j}{
+        font-weight: $m;
+    }
+}
+@each $q, $w in $color-secciones{
+    .color-secciones-#{$q}{
+        color: $w;
+    }
+}
