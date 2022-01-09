@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="En este sitio encontrarás el mejor café del mundo, tres de las mejores cafeterías de buenos aires y muchísimoas productos más de la mejor calidad">
+    <meta name="keywords"  content="CAFE, CAFETERIA, BARISTA, REGALOS EMPRESARIALES, EVENTOS, CATERING, FIESTAS">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<title>Don Cafetero</title>
+  </head>
+  <body class="font-main secciones-main">
+    <nav class="navbar navbar-expand-lg navbar-light col-12">
+ 	  <a class="navbar-brand" href="index.html"><img class="img-fluid" src="media/logo.png" loading="lazy" alt="Logo"></a>
+ 	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+ 	    <span class="navbar-toggler-icon"></span>
+ 	  </button>
+ 	  <div class="collapse navbar-collapse font-size-2rem" id="navbarNav">
+ 	    <ul class="navbar-nav bordeado">
+ 	      <li class="nav-item active">
+ 	        <a class="nav-link" href="index.html">HOME</a>
+ 	      </li>
+ 	      <li class="nav-item active">
+ 	        <a class="nav-link" href="cafe.html">CAFE</a>
+ 	      </li>
+ 	      <li class="nav-item active">
+ 	        <a class="nav-link" href="eventos.html">EVENTOS</a>
+ 	      </li>
+ 	      <li class="nav-item active">
+ 	        <a class="nav-link" href="locales.html">LOCALES</a>
+ 	      </li>
+ 	      <li class="nav-item active">
+ 	       <a class="nav-link" href="contacto.html">CONTACTO</a>
+ 	      </li>
+ 	    </ul>
+ 	  </div>
+	  </nav>
+    <h1>DON CAFETERO - CONTACTANOS</h1>
+    <div id=formulario class="selector-for-some-widget container col-lg-6">
+      <form class="rounded mg-a" method="POST" action="recibe.html">
+        <div class="form-row">
+          <div class="col-lg-12 col-sm-10 m-2">
+            <input type="text" class="form-control estiloForm" placeholder="Nombre">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-lg-12 col-sm-10 m-2">
+            <input type="text" class="form-control estiloForm" placeholder="Apellido">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-lg-12 col-sm-10 m-2">
+            <input type="text" class="form-control estiloForm" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-check form-check-inline col-3  m-2">
+          <input class="form-check-input " type="radio" name="cliente_proveedor" id="Cliente" value="1">
+          <label class="form-check-label m-2" for="Cliente">Cliente</label>
+        </div>
+        <div class="form-check form-check-inline col-3 m-2">
+          <input class="form-check-input" type="radio" name="cliente_proveedor" id="Proveedor" value="2">
+          <label class="form-check-label m-2" for="Proveedor">Proveedor</label>
+        </div>
+        <div class="form-group col-lg-12 m-2">
+          <label for="Comentarios">Comentarios</label>
+          <textarea class="form-control formularioComentarios estiloForm" id="Comentarios" rows="3"></textarea>
+        </div>
+        <div class="form-check m-2">
+          <input class="form-check-input" name="informacion[]" type="checkbox" value="newsletter" id="news" checked="">
+          <label class="form-check-label" for="news">
+            ¿Recibir newsletter?
+          </label>
+        </div>
+        <div class="form-check m-2">
+          <input class="form-check-input" name="informacion[]" type="checkbox" value="descuentos" id="dto" checked="">
+          <label class="form-check-label" for="dto">
+            ¿Recibir descuentos?
+          </label>
+        </div>
+        <select class="form-check form-check-inline col-lg-3 col-sm-6 m-2 custom-select estiloForm" name="localcercano">
+          <option value="local" selected="" disabled="">Local</option>
+          <option value="caballito">Caballito</option>
+          <option value="palermo">Palermo</option>
+          <option value="recoleta">Recoleta</option>
+        </select>
+        <div class="form-row">
+          <div class="col-lg-6 col-sm-3">
+            <input class="btn btn-especial btn-lg" type="reset" value="Limpiar">
+          </div>
+          <div class="col-lg-6 col-sm-3">
+            <input class="btn btn-especial btn-lg" type="submit" value="Enviar">
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="container-fluid pad15 font-size-1rem font-weight-regular secciones-footer color-secciones-footer footer">
+      <div class="footerIzq">
+        <p>© 2021 Don Cafetero, todos los derechos reservados.</p>
+        <p>Calle Falsa 123, Buenos Aires, Argentina</p>
+        <p>Teléfono: 4321-4321</p>
+      </div>
+      <div class="footerDer">
+        <a href="https://twitter.com/" rel="nofollow" target="blank"><img src="media/twitter.png" loading="lazy" alt="Twitter"></a>
+				<a href="https://instagram.com/" rel="nofollow" target="blank"><img src="media/instagram.png" loading="lazy" alt="Instagram"></a>
+				<a href="https://facebook.com/" rel="nofollow" target="blank"><img src="media/facebook.png" loading="lazy" alt="Facebook"></a>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  </body>
+</html>
