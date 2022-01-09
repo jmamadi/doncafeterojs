@@ -114,11 +114,11 @@ function presentacioncarrito() {
         <h1 class="m-4 p-4">Productos Seleccionados</h1>
         `)
     }
+
     for (const productoMostrado of carrito) {
         let multiplicacionProducto = (productoMostrado.precioKilo * productoMostrado.cantidad)
         multiplicacionProductoTotal += multiplicacionProducto
         cantidadTotal += productoMostrado.cantidad
-
         $(`#carrito`).append(`
         <div  style="" class="selector-for-some-widget m-2 p-4 col-lg-4 col-sm-12 fila bordeTablaProductos">
             <div class="container-fluid">
@@ -258,6 +258,7 @@ function presentacioncarrito() {
 
         $(`#modalCarrito`).append(modalTabla)
         $(`#modalFinalizar`).append(modalFinalizar)
+
         $(`#enviar`).click(function() {
             let controlDatos = true
             if ( $(`#nombreModal`).val() === ""){
@@ -292,6 +293,7 @@ function enviarDatos() {
     mensajes ("Compra realizada, nos pondremos en contacto","green")
     carrito.splice(0, carrito.length);
     localStorage.setItem("carritoToStorage", JSON.stringify(carrito))
+    $('body').removeClass('modal-open');
     $('.modal-backdrop').remove();
     presentacioncarrito ()
 }
